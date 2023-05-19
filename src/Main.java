@@ -11,6 +11,10 @@ import java.util.Scanner;
 	public class Main {
 			public static void main(String[] args) {
 				// TODO Auto-generated method stub
+				
+				// Cambio
+				System.out.println("Hello world!");
+				
 				String ruta = "películas.txt";
 				File archivo = new File(ruta);
 				if (!archivo.exists()) {
